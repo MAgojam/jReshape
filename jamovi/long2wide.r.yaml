@@ -8,6 +8,7 @@ items:
     - name: help
       title: Getting started
       type: Html
+      accordion: false
 
 
     - name: info
