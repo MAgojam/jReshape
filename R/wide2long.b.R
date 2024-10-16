@@ -46,9 +46,11 @@ wide2longClass <- if (requireNamespace('jmvcore', quietly=TRUE)) R6::R6Class(
         
       }
         if (self$options$mode=="simple")
-                   self$results$desc$setContent(HELP_simple2long[[1]])
+                   #self$results$desc$setContent(HELP_simple2long[[1]])
+                   self$results$desc$setContent(paste0('<div class="accordion">', HELP_simple2long[[1]], '</div>'))                          
         if (self$options$mode=="complex")
-                   self$results$desc$setContent(HELP_complex2long[[1]])
+                   #self$results$desc$setContent(HELP_complex2long[[1]])
+                   self$results$desc$setContent(paste0('<div class="accordion">', HELP_complex2long[[1]], '</div>'))     
 
 
       if (!is.something(private$.indexes_name)) private$.indexes_name<-"index"
