@@ -2,6 +2,7 @@ HELP_simple2long<-list()
 HELP_complex2long<-list()
 
 ladd(HELP_simple2long)<-"<div>
+              <h2>Getting started</h2>
                With this module, you can transform a dataset from the wide format to the long format. 
                To do this, select the variables (columns) from the original dataset that you want to convert
                into different row values and enter them in the <b>Columns to row</b> field. 
@@ -21,6 +22,7 @@ ladd(HELP_simple2long)<-"<div>
 
 
 ladd(HELP_complex2long)<-"<div>
+              <h2>Getting started</h2>
                With this module, you can transform a dataset from the wide format to the long format. 
                To do this, select the variables (columns) from the original dataset that you want to convert
                into different long format variables. For each long format variable that you want to create,
