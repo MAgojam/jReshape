@@ -258,7 +258,9 @@ jrmergecolsClass <- if (requireNamespace('jmvcore', quietly=TRUE)) R6::R6Class(
                              '<h2>&#x1F4C1 Reshape</h2>
                               Open the modified data set in a new jamovi window, using the <b>Reshape</b> button (<b>Ctrl+R</b>)')
 
-            self$results$help$setContent(hlp)
+            self$results$help$addAccordion("PROVA", hlp)
+            self$results$help$finalizeAccordions()
+            #self$results$help$setContent(hlp)
         }
     )
 )
