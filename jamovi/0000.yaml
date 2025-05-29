@@ -1,7 +1,7 @@
 ---
 title: Reshape datasets from merge columns, long to wide and back
 name: jReshape
-version: 0.3.5
+version: 0.3.6
 jms: '1.0'
 authors:
   - Marcello Gallucci
@@ -20,18 +20,21 @@ analyses:
     menuGroup: Data
     menuSubgroup: jReshape
     menuTitle: Wide to Long
+    ribbon: analyses
   - title: Long to wide
     name: long2wide
     ns: jReshape
     menuGroup: Data
     menuSubgroup: jReshape
     menuTitle: Long to wide
+    ribbon: analyses
   - title: Merge Columns
     name: jrmergecols
     ns: jReshape
     menuGroup: Data
     menuSubgroup: jReshape
     menuTitle: Merge Columns
+    ribbon: analyses
 usesNative: true
 minApp: 2.5.0
 
