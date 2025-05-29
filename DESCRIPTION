@@ -1,7 +1,7 @@
 Package: jReshape
 Type: Package
 Title: "Reshape datasets from merge columns, long to wide and back"
-Version: 0.3.5
+Version: 0.3.6
 Author: 
    - Marcello Gallucci [aut, cre]
    - Maurizio Agosti [aut]
@@ -12,11 +12,11 @@ Description: Reshape datasets from long to wide or from wide to long and merge
 License: GPL (>=2)
 Encoding: UTF-8
 LazyData: true
-Imports: R6
+Imports:
+    jmvcore (>= 2.4.2),
+    jmvReadWrite (>= 0.4.2),
+    R6
 Suggests:
     testthat  (>= 3.1.5),
-    jmvReadWrite (>= 0.4.2),
     knitr
-Remotes: sjentsch/jmvReadWrite,
-         jamovi/jmvcore
 RoxygenNote: 7.3.1
